@@ -1,0 +1,9 @@
+name: graphical_table
+dependencies:
+- pip=9.0.1
+- python=3.6.2
+- scipy>=0.19.0
+- pip:
+  - dsbox-datapreprocessing
+  - dsbox-datacleaning
+  - networkx
